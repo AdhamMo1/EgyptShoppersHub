@@ -1,10 +1,10 @@
-using EgyptShoppersHubEF;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity.UI;
 using EgyptShoppersHubCore.Models;
+using EgyptShopper_sHubEF.Data;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.

@@ -1,0 +1,137 @@
+/*Font*/
+.alegreya-sans sc-thin {
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.alegreya-sans sc-light {
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.alegreya-sans sc-regular {
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.alegreya-sans sc-medium {
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.alegreya-sans sc-bold {
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.alegreya-sans sc-extrabold {
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.alegreya-sans sc-black {
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.alegreya-sans sc-thin-italic {
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.alegreya-sans sc-light-italic {
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.alegreya-sans sc-regular-italic {
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.alegreya-sans sc-medium-italic {
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.alegreya-sans sc-bold-italic {
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.alegreya-sans sc-extrabold-italic {
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.alegreya-sans sc-black-italic {
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+/*end-Font*/
+* {
+    font-family: "Albert Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+   margin-top:110px;
+  margin-bottom: 60px;
+}
+.header {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+.navbar {
+    margin-left: 16px;
+    margin-right: 16px;
+    border-bottom-left-radius: 1.5em;
+    border-bottom-right-radius: 1.5em;
+    box-shadow: 1px 1px 15px #CFCFCF;
+}
+.footer-bk {
+    color: white;
+    background-color: #0160C6;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+}

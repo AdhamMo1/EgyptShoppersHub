@@ -5,9 +5,11 @@ VisualStudioVersion = 17.9.34526.213
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EgyptShoppersHub", "EgyptShopper'sHub\EgyptShoppersHub.csproj", "{71613360-790A-421A-B2A7-1ADC88661819}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EgyptShoppersHubCore", "EgyptShoppersHubCore\EgyptShoppersHubCore.csproj", "{313A9230-971B-4251-9F3D-4078B8C0810F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EgyptShoppersHubCore", "EgyptShoppersHubCore\EgyptShoppersHubCore.csproj", "{313A9230-971B-4251-9F3D-4078B8C0810F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EgyptShoppersHubEF", "EgyptShopper'sHubEF\EgyptShoppersHubEF.csproj", "{E0665BFA-916E-482A-AE19-F1BF93A3AB89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EgyptShoppersHubEF", "EgyptShopper'sHubEF\EgyptShoppersHubEF.csproj", "{E0665BFA-916E-482A-AE19-F1BF93A3AB89}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "system", "system", "{61CE9E72-5AFF-450D-A0F4-DB2E26672503}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +32,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{71613360-790A-421A-B2A7-1ADC88661819} = {61CE9E72-5AFF-450D-A0F4-DB2E26672503}
+		{313A9230-971B-4251-9F3D-4078B8C0810F} = {61CE9E72-5AFF-450D-A0F4-DB2E26672503}
+		{E0665BFA-916E-482A-AE19-F1BF93A3AB89} = {61CE9E72-5AFF-450D-A0F4-DB2E26672503}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C33B66CD-8B59-4007-97BE-F9D434488B2D}

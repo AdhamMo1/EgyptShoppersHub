@@ -109,7 +109,7 @@ html {
 }
 
 body {
-   margin-top:110px;
+   margin-top:100px;
   margin-bottom: 60px;
 }
 .header {
@@ -125,6 +125,7 @@ body {
     border-bottom-left-radius: 1.5em;
     border-bottom-right-radius: 1.5em;
     box-shadow: 1px 1px 15px #CFCFCF;
+    height:66px;
 }
 .footer-bk {
     color: white;
